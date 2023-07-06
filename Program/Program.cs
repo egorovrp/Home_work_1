@@ -3,3 +3,14 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
+int a, b, max;
+Console.WriteLine("Введите два числа:"); //Просим пользователя ввести два числа для сравнения
+a = int.Parse(Console.ReadLine());
+b = int.Parse(Console.ReadLine());
+if (a <= b) {
+    max=b;
+} 
+else {
+    max=a;
+}
+Console.WriteLine("Максимальное число: " + max);
