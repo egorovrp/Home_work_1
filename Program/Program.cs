@@ -5,8 +5,8 @@
 
 int a, b, max;
 Console.WriteLine("Введите два числа:"); //Просим пользователя ввести два числа для сравнения
-a = int.Parse(Console.ReadLine());
-b = int.Parse(Console.ReadLine());
+a = int.Parse(Console.ReadLine()!);
+b = int.Parse(Console.ReadLine()!);
 if (a <= b) {
     max=b;
 } 
